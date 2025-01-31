@@ -1,0 +1,95 @@
+.sideBar {
+    width: 20%;
+    /* One-third of the viewport width */
+    height: 100vh;
+    /* Adjust height as needed */
+    background-color: grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    padding: 20px;
+    /* Optional: Add some padding */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
+}
+
+.styledButton {
+    display: inline-block;
+    background-color: darkgrey;
+    /* Primary button color (blue) */
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    /* Padding for size */
+    font-size: 16px;
+    /* Font size */
+    font-family: Arial, sans-serif;
+    /* Font style */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Button shadow */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    /* Ensure proper spacing */
+}
+
+li {
+    background-color: lightgray;
+    /* Background for list items */
+    margin-bottom: 10px;
+    /* Space between list items */
+    padding: 5px;
+    /* Padding inside list items */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    font-family: Arial, sans-serif;
+    /* Match sidebar font */
+    font-size: 14px;
+    /* Font size for project text */
+    color: #333;
+    /* Text color */
+    cursor: pointer;
+    /* Make items clickable */
+    transition: background-color 300ms ease, text-color 300ms ease;
+    /* Smooth hover effects */
+}
+
+li.active {
+    background-color: #333;
+    color: white;
+}
+
+
+li:hover {
+    background-color: #333;
+    color: white;
+}
+
+p {
+
+    font-family: Arial, sans-serif;
+    /* Consistent font */
+    font-size: 16px;
+    /* Text size */
+    color: white;
+    /* Light grey text color */
+    text-align: left;
+
+    margin-top: 20px;
+    /* Add spacing from the top */
+    margin-bottom: 20px;
+  
+
+}
